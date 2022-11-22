@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(221, 218, 218);
+}
+
+.gridContainer{
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    grid-template: repeat(31, 30px) / repeat(33,30px);
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text hr{
+    width: 60px;
+    border: 0;
+    height: 3px;
+    background-color: black;
+    text-align: left;
+}
+.text a{
+    text-decoration: none;
+    color: gray;
+    padding-top: 20px;
+    font-size: 12px;
+}
+.date{
+    color: gray;
+    font-size: 10px;
+    padding-top: 30px;
+}
+.gridContainer :nth-child(1){
+    grid-area: 4 / 7 / 15 / 17;
+}
+.gridContainer :nth-child(2){
+    grid-area: 6 / 2 / 16 / 11;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.gridContainer :nth-child(3){
+    grid-area: 4 / 17 / 15 / 27;
+}
+.gridContainer :nth-child(4){
+    grid-area: 6 / 23 / 16 / 32;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.gridContainer :nth-child(5){
+    grid-area: 18 / 7 / 29 / 17;
+}
+.gridContainer :nth-child(6){
+    grid-area: 20 / 2 / 30 / 11;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.gridContainer :nth-child(7){
+    grid-area: 18 / 17 / 29 / 27;
+}
+.gridContainer :nth-child(8){
+    grid-area: 20 / 23 / 30 / 32;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}

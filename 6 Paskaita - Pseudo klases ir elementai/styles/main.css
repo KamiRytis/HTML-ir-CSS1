@@ -1,0 +1,52 @@
+p.rytoTekstas#hallo{
+    font-weight: bold;
+}
+p + p{
+    color: red;
+}   
+p ~ p{
+    background-color: aqua;
+}
+[class]{
+    color: purple;
+}
+
+[class*=head]{
+    color: blue;
+}
+[class|=head]{
+    color: red;
+}
+[class^=head]{
+    color:aqua
+}
+
+a:link{
+    background-color: aqua;
+}
+a:visited{
+    background-color: yellow;
+}
+a:hover{
+    background-color: green;
+}
+a:active{
+    background-color: black;
+}
+p:empty{
+    height: 10px;
+    background-color: violet;
+}
+li::marker{
+    color: aquamarine;
+}
+.selektoriuPvz > :not(div){
+    background-color: rgb(33, 12, 221);
+}
+
+.selektoriuPvz p:last-child{
+    color: green;
+}
+.selektoriuPvz :nth-of-type(2n){
+    color: green;
+}

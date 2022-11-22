@@ -1,0 +1,6 @@
+.gridContainer{
+    display: grid;
+    gap: 2px;
+    justify-content: center;
+    grid-template: repeat(7, 40px) / repeat(3,40px);
+}

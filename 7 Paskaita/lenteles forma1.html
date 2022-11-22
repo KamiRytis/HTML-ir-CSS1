@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>lentelės forma1</title>
+    <link rel="stylesheet" href="./styles/forma1.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div>
+                <h1 class="title">Register to Fancy Form</h1>
+                <div><p>All fields are <span>required</span> unless marked as "optional" </p></div>
+                <form>
+                    <div class="first">
+                        <label for="">Your unique ID that you can't change</label>
+                        <input type="text" name="" id="" value="YBX0123" readonly>
+                    </div>
+                    <div class="required">
+                        <label for="">Email:</label>
+                        <input type="email" name="" id="" required>
+                    </div>
+                    <div class="required">
+                        <label for="">Password:</label>
+                        <input type="password" name="" id="" required>
+                    </div>
+                    <div class="required">
+                        <label for="age">Age:</label>
+                        <input type="number" name="age" id="age" min="1" max="61" required>
+                    </div>
+                    <div>
+                        <label for="">Tell us a little about yourself (optional):</label>
+                        <textarea name="" id="" optional></textarea>
+                    </div>
+                    <div class="termsCheck">
+                        <input type="checkbox" name="" id="terms" value="I agree with the Terms & Conditions">
+                        <label for="terms">I agree with the Terms & Conditions</label>
+                    </div>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+

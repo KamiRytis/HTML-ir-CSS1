@@ -1,0 +1,70 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    scroll-behavior: smooth;
+    width: 70%;
+    margin: 0 auto;
+    background-color: grey;
+}
+.logo img{
+    height: 60px;
+    padding-top: 10px;
+}
+header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(159, 197, 102);
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+    translate: -15px;
+    color: greenyellow;
+}
+.text {
+    display: flex;
+    background-color: white;
+}
+.left{
+    background-color: white;
+    float: left;
+    padding: 10px;
+    width: 37%;
+    text-align: justify;
+    
+}
+.right{
+    float: right;
+    padding: 10px;
+    width: 57%;
+    text-align: justify;
+    
+}
+.right img{
+    float: left;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    color: rgb(61, 104, 61);
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.button{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(155, 209, 74);
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+}

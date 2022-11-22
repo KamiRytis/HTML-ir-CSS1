@@ -1,0 +1,12 @@
+thead{
+    background-color: red;
+}
+tbody tr:nth-of-type(2n){
+    background-color: green;
+}
+tbody > tr :first-child{
+    color: blueviolet;
+}
+tbody > tr :last-child{
+    color: blueviolet;
+}

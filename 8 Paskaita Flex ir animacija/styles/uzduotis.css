@@ -1,0 +1,50 @@
+.kvadratas{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 50px 0 0 50px;
+}
+.kvadratas h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.tranzicija{
+    transition: background-color 2s linear 0s,
+    color 2s linear 0s;
+}
+.tranzicija:hover{
+    background-color: white;
+    color: red;
+}
+.animacija{
+    animation: 5s 0s ease-in-out infinite alternate animacija1;
+}
+.animacija2{
+    animation: 1s 0s infinite alternate animacija2;
+    transform-origin: bottom;
+}
+@keyframes animacija1{
+    0%{
+        transform: translateY(0px);
+    }50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes animacija2{
+    0%{
+        transform:skew(-15deg, 0deg);
+    }50%{
+        transform:skew(0,0);
+        transform: scaleY(0.8);
+    }100%{
+        transform:skew(15deg,0deg);
+    }
+}
+
+.cssDinner *{
+    display: inline-block;
+}

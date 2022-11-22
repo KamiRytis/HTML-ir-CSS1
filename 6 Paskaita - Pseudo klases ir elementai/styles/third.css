@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+}
+aside{
+    position: fixed;
+    width: 400px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(59, 59, 59);
+}
+main{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    left: 400px;
+}
+.asideStyle{
+    display: inline-block;
+    padding-left: 10px;
+    border: 2px solid white;
+}
+.asideStyle *{
+    text-decoration: none;
+    color: white;
+}
+.asideStyle > ul > li{
+    color: white;
+}
+.h1{
+    color: white;
+    font-size: 50px;
+}
+.divas > ul >li::marker{
+    color: red;
+}
+.divas > ul > li > ul > li::marker{
+    color: red;
+}
+.topRight{
+    font-size: small;
+    padding-left: 800px;
+    top: 10px;
+}
+.top *{
+    height: 100px;
+    width: auto;
+    display: inline-block;
+}

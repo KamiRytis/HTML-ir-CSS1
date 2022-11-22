@@ -1,0 +1,55 @@
+@import url('https://csstools.github.io/normalize.css/11.0.0/normalize.css');
+.container{
+    background-color: rgb(50, 86, 94);
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 80px;
+    border: 2px solid rgb(214, 214, 214);
+    color: white;
+    text-align: center;
+}
+.container span{
+    background-color: rgb(223, 127, 231);
+}
+.container input, .container label{
+    margin: 0 auto;
+    display: block;
+}
+.container input, .container textarea{
+    margin-bottom: 10px;
+}
+.container input[type=submit]{
+    color: white;
+    background-color: green;
+    border: 2px solid  black;
+}
+.container textarea{
+    border: 2px solid green;
+}
+.first input{
+    border: 2px solid rgb(53, 53, 53);
+    background-color: rgb(146, 141, 141);
+}
+.first ::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#age{
+    width: 60px;
+    margin: 0 auto 10px;
+}
+.required input{
+    border: 3px solid rgb(207, 78, 78);
+    border-left: 4px solid rgb(217, 130, 243);
+}
+
+.termsCheck label, .termsCheck input{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.termsCheck input:checked + label{
+    color: green;
+}
+.container input[type=submit]:hover{
+    background-color: rgb(3, 58, 3);
+}

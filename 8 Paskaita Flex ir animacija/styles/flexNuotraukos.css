@@ -1,0 +1,49 @@
+body{
+    width: 80%;
+    margin: 200px auto;
+}
+.bg{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 62, 126);
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.title h1{
+    font-size: 60px;
+    color: aquamarine;
+}
+.title p{
+    color: rgba(214, 210, 210, 0.61);
+}
+.photos img{
+    width: 60%;
+}
+.photos{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.names{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end ;
+    padding-right: 40px;
+   
+}
+.names h3{
+    font-weight: bold;
+    color: white;
+}
+.names p{
+    color: rgba(214, 210, 210, 0.61);
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+}

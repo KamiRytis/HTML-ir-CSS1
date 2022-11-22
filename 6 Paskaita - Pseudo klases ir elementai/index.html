@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>6 Paskaita - Pseudo klasės ir elementai</title>
+    <link rel="stylesheet" href="Styles/main.css">
+</head>
+<body>
+    <!-- 
+        Pseudo klasės ir elementai (selektriai)
+        Multimedijos elementai (video, audio, maps, iframe)
+        Lentelės su pseudo klasėm/elementais
+        Formos su pseudo klasėmis/elementais
+        Animacijos ir perėjimai
+    --> 
+    <main>
+        <section id="pseaudoSelektoriai">
+            <h1>
+                <a href="https://www.w3schools.com/cssref/css_selectors.php">Pseudo Selektoriai</a>
+            </h1>
+            <ul>
+                <li>*</li>
+                <li>element</li>
+                <li>.class</li>
+                <li>#id</li>
+                <li>selector1, selcetor2</li>
+                <li>selector1 selcetor2</li>
+                <li>selector1 > selcetor2</li>
+                <li>element.class#id - elementas turintis nurodytą klasę/es ir/arba nurodytą id</li>
+                <li>selector + selector2 - iš karto už selector1 einantis selector2</li>
+                <li>selector1 ~ selector2 - už selector1 visi einantys selector2 (tame pačiame lygyje)</li>
+                <li>[attribute] - atributas</li>
+                <li>[attribute=value] - atributas turintis nurodytą reikšmę</li>
+                <li>[attribute~=value] - atributas , kurio reikšmėje yra nurodytas žodis </li>
+                <li>[attribute*=value] - atributas, kurio reikšmėje yra nurodyta žodžio dalis</li>
+                <li>[attribute|=value] - atributas, kurio reikšmė yra value arba value-kažkas</li>
+                <li>[attribute|=value] - atributas, kurio reikšmė yra value arba value-kažkas</li>
+                <li>[attribute^=value] - atributas, kurio reikšmė prasideda value...</li>
+                <li>[attribute$=value] - atributas, kurio reikšmė pasibaigia ...value</li>
+                <li>:link - paprasta/nelankyta nuoroda</li>
+                <li>:visited - lankyta nuoroda</li>
+                <li>:hover - užėjęs kursiorius</li>
+                <li>:active - aktyvi (paspaudimo momento) nuoroda</li>
+                <li>element:empty - tuščias elementas (be content)</li>
+                <li>::marker - sąrašo elementų žymės</li>
+                <li>:not(selector) - parenka viską apart nurodyto elemento</li>
+                <li>:first-child - Parenka pirmąjį vaikinį elementą </li>
+                <li>:last-child - parenka paskutinįjį vaikinį elementą</li>
+                <li>:only-child - parenka vienintelį vaikinį elementą (jeigu jis yra vienas)</li>
+                <li>:first-of-type - parenka pirmąjį nurodyto tipo elementą</li>
+                <li>:last-of-type - parenka paskutinįjį nurodyto tipo elementą</li>
+                <li>:only-of-type - parenka vienintelį nurodyto tipo elementą</li>
+                <li>:nth-child(n) - parenka nurodytą/us vaikinį/ius elementus</li>
+                <li>:nth-last-child(n) - nuo galo parenka nurodytą/us vaikinį/ius elementą/us</li>
+                <li>:nth-of-type(n) - parenka nurodytą/us elementą/us pagal tipą</li>
+                <li>:nth-last-of-type(n) - nuo galo parenka nurodytą/us elementą/us pagal tipą</li>
+                <li>::after - sukuria kažkokį turinį už elemento</li>
+                <li>::before - sukuria kažkokį turinį prieš elementą</li>
+                <li>input:checked - pažymėtus/parinktus radio/checkbox/select pasirinkimus</li>
+                <li>input:default - iš anksto parinktas pasirinkimas</li>
+                <li>input:enabled - unout;as kuris neturi disabled atributo</li>
+                <li>input:disabled - inpu'as kuris turi disabled atributą</li>
+                <li>input:focus - inpu'as, ant kurio yra paspausta/fokusotas</li>
+                <li>input:in-range - inputas, kurio vertė yra nurodytose ribose</li>
+                <li>input:out-of-range - input'as, kurio vertė yra už nurodytų ribų</li>
+                <li>input:indeterminate - inpu'as, kurio reikšmė neapibrėžta</li>
+                <li>input:valid - input'as, kurio vertė yra tinkama</li>
+                <li>input:invalid - input'as, kurio vertė yra netinkama</li>
+                <li>input:required - input'as su required atributu</li>
+                <li>input:optionas - input'as be required atributo</li>
+                <li>input:read-only - input'as su readonly atributu</li>
+                <li>input:read-write - input'as be readonly atributo</li>
+                <li>::placeholder - Įvesties laukelio placeholder atributo reikšmės parinkimas stilizavimui</li>
+                <li>::first-letter - parenke elemento pirmąją raidę </li>
+                <li>::first-line - parenka elemento primąją eilutę</li>
+                <li>::selection - parenka vartotojo pažymėtą informaciją</li>
+            </ul>
+            <div class="selektoriuPvz"></div>
+                <p class="rytoTekstas" id="hallo">labas rytas</p>
+                <p></p>
+                <h1>tekstas more</h1>
+                <p>tekstas more and more</p>
+                <h1 class="heading irDar">tekstas more2</h1>
+                <p>tekstas more and more2</p>
+                <p>tekstas more and more2</p>
+                <p>tekstas more and more2</p>
+                <p>tekstas more and more2</p>
+        </section>
+        <section id="multimedija">
+            <h1>Multimedija</h1>
+            <p>Iframe - skirtas įkelti kitos svetainės dalį, arba visą svetainę į savo svetainę. 
+            </p>
+            <div id="video">
+                <!-- <video controls>
+                    <source src="" type="">
+                    <source src="" type="">
+                    <source src="" type="">
+                </video>
+                <video src="" controls></video> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EzAk_QKOijQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="audio">
+                <audio>
+                    <source src="" type="audio/mp3">
+                    <source src="" type="">
+                    <source src="" type="">
+                </audio>
+                <audio src="" controls></audio>
+            </div>
+            <div id="maps">
+                <div id="maps">JS prijungi</div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.7567384730605!2d-105.0691276!3d39.429624999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5c1072f59bc2b96!2sRoxborough%20State%20Park!5e0!3m2!1sen!2slt!4v1668415737434!5m2!1sen!2slt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="page">
+                <iframe src="https://lrs.lt"  height="400" width="500" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
