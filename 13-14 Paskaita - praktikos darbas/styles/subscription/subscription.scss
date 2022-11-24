@@ -1,0 +1,46 @@
+#subscription{
+    background-color: #645CFF;
+    height: 100%;
+    h1{
+        font-size: xx-large;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: 500;
+        text-align: center;
+        padding: 70px;
+        margin: 0;
+        color: white;
+    }
+    div{
+        width: 92%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 50px;
+        p{
+            text-transform: capitalize;
+            color: white;
+            font-size: x-large;
+        }
+        form{
+            height: 35px;
+            display: flex;
+            
+            .formFlex{
+                background-color: white;
+                padding: 0;
+                .placeholder{
+                    border: 2px solid white;
+                }
+                ::placeholder{
+                    color: black;
+                }
+            }
+            .button1{
+                border: 2px solid white;
+            }
+        }
+        }
+    }

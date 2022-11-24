@@ -1,0 +1,78 @@
+#aboutUs{
+    h1{ font-size: xx-large;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: 500;
+            text-align: center;
+            padding: 50px;
+            span{
+                color: #645CFF;
+            }
+        }
+    div{
+        width: 92%;
+        margin: 0 auto 150px auto;
+        @media(min-width: 800px){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+            margin: 0 auto 50px auto;
+        }
+        .aboutUsImg{
+            @media(min-width: 800px){
+                    border: 5px solid #645CFF;
+                    border-radius: 5px;
+                    width: 600px;
+                    height: 400px;
+                    flex-grow: 1;
+                }
+            .aboutUs1{
+                display: none;
+            @media(min-width: 800px){
+                display: unset;
+                width: 600px;
+                height: 400px;
+                position: relative;
+                top: 20px;
+                left: 20px;
+                flex-grow: 1;
+            }
+            }
+            img{
+            width: 100%;
+            @media(min-width: 800px){
+                display: none;
+            }
+            }
+        }
+        .aboutUsText{
+            @media(min-width: 800px){
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+            }
+            h1{
+                text-align: left;
+                padding: 0;
+                margin-top: 60px;
+                margin-bottom: 20px;
+                letter-spacing: 1px;
+                font-size: x-large;
+                font-weight: 540;
+            }
+            p{
+                font-weight: 540;
+            }
+            a{
+                text-decoration: none;
+                color: #3b31fc;
+                font-weight: 600;
+            }
+        }
+    }
+}
+

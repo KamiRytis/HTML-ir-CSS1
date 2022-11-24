@@ -1,0 +1,30 @@
+#gallery{
+    height: 100%;
+    width:100%;
+    h1{ background-color: #F8FBFC;
+        font-size: xx-large;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: 500;
+        text-align: center;
+        padding: 70px;
+        margin: 0;
+        span{
+            color: #645CFF;
+        }
+    }
+    div{
+        @media(min-width:800px){
+            display: flex;
+        }
+        background-color: #645CFF;
+        img{
+            height: 500px;
+            width: 100%;
+            @media(min-width:800px){
+                height: 250px;
+            }
+        }
+    }
+}

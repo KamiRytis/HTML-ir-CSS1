@@ -1,0 +1,47 @@
+header{
+    height: 80px;
+    nav{
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        div{
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{ font-size: x-large;
+                font-family: sans-serif;
+                span{
+                    color: #645CFF;
+                }
+            }
+        
+            .menu{ 
+                display: none;
+                margin: 0;
+                @media (min-width: 800px){
+                    display: flex;
+                    justify-content: center;
+                }
+                ul{
+                    padding: 0;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        padding: 5px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                i{
+                    color: #645CFF;
+                    align-items: center;
+                    }
+            }
+        }
+    }
+}

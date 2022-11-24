@@ -1,0 +1,40 @@
+#footer{
+    background-color: #222222;
+    bottom: 0;
+    height: 300px;
+    div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .footerMenu{
+            ul{
+                margin: 60px auto 0;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    padding: 5px;
+                }
+            }
+        }
+        .footerIcons{
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            i{
+                color: #645CFF;
+                }
+        }
+        .copyrightLine{
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            word-spacing: 5px;
+            p{
+                margin-bottom: 60px;
+            }
+        }
+    }
+}

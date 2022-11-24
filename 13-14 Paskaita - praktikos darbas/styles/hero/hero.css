@@ -1,0 +1,66 @@
+#hero {
+  height: 800px;
+  background-color: #645cff;
+}
+#hero div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#hero div div {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+@media (min-width: 800px) {
+  #hero div div {
+    background-image: linear-gradient(rgba(100, 92, 255, 0.7), rgba(100, 92, 255, 0.7)), url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+#hero div div .phoneH1 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+@media (min-width: 800px) {
+  #hero div div .phoneH1 {
+    display: none;
+  }
+}
+#hero div div .desktopH1 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 50px;
+  letter-spacing: 5px;
+  display: none;
+}
+@media (min-width: 800px) {
+  #hero div div .desktopH1 {
+    display: unset;
+  }
+}
+#hero div div p {
+  line-height: 30px;
+  width: 60%;
+}
+#hero div div .button {
+  padding: 0 5px;
+  width: 100px;
+  height: 30px;
+  border: 0.1px solid #5f57f8;
+  border-radius: 5px;
+  background-color: #645cff;
+}
+#hero div div .button:hover {
+  background-color: white;
+  color: #645CFF;
+}/*# sourceMappingURL=hero.css.map */

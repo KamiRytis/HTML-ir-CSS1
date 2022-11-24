@@ -1,0 +1,28 @@
+/* Frameworks */
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Tavo css'ai */
+@import url("./header/header.css");
+@import url("./hero/hero.css");
+@import url("./aboutUs/aboutUs.css");
+@import url("./services/services.css");
+@import url("./featured/featured.css");
+@import url("./gallery/gallery.css");
+@import url("./subscription/subscription.css");
+@import url("./footer/footer.css");
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/*media*/

@@ -1,0 +1,98 @@
+#featured{
+    height: 100%;
+    width: 92%;
+    margin: 0 auto;
+    h1{ font-size: xx-large;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: 500;
+        text-align: center;
+        padding: 70px;
+        margin: 0;
+        span{
+            color: #645CFF;
+        }
+    }
+    div{
+        .card{
+            height: 100%;
+            width: 500px;
+            margin: 0 auto;
+            .img1{
+                height: 350px;
+                position: relative;
+                text-align: center;
+                img{
+                    height: 350px;
+                    width: 500px;
+                }
+                div{
+                    width:auto;
+                    height: 30px;
+                    background-color: #645CFF;
+                    color:#14203B;
+                    font-weight: 600;
+                    position: absolute;
+                    top: 20px;
+                    line-height: 30px;
+                    text-align: center;
+                    font-size: 13px;
+                    padding: 0 5px;
+                }
+            }
+            .text1{
+                height: 150px;
+                width: 500px;
+                box-sizing: border-box;
+                box-shadow: 2px 2px 2px 2px #EBECE9;
+                margin: 0 auto 50px;
+                h1{
+                    text-align: left;
+                    padding: 20px 0 0 20px;
+                    font-weight: 540;
+                    text-transform: none;
+                    letter-spacing: 0;
+                }
+                div{
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 30px 20px 0 20px;
+                    height: 40%;
+                    width: auto;
+                    div{
+                        display: block;
+                        color: #645CFF;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+                    p{
+                        display: block;
+                        font-weight: 600;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+    .button{
+        text-align: center;
+        padding-bottom: 40px;
+        a{
+            text-decoration: none;
+            color: #3b31fc;
+            font-weight: 600;
+        }
+    }
+    .featuredFlex{
+        @media(min-width:800px){
+        height: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+}

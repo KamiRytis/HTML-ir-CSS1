@@ -1,0 +1,38 @@
+#footer {
+  background-color: #222222;
+  bottom: 0;
+  height: 300px;
+}
+#footer div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#footer div .footerMenu ul {
+  margin: 60px auto 0;
+}
+#footer div .footerMenu ul a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+#footer div .footerIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+#footer div .footerIcons i {
+  color: #645CFF;
+}
+#footer div .copyrightLine {
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  word-spacing: 5px;
+}
+#footer div .copyrightLine p {
+  margin-bottom: 60px;
+}/*# sourceMappingURL=footer.css.map */
